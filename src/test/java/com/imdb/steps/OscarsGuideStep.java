@@ -28,7 +28,7 @@ public class OscarsGuideStep {
 
     @When("Arama çubuğunun sol tarafında bulunan Menü butonuna basılır")
     public void aramaCubugununSolTarafindaBulunanMenuButonunaBasilir() throws InterruptedException {
-        SeleniumDriver.getDriver().findElement(By.cssSelector("#imdbHeader-navDrawerOpen--desktop")).click();
+          SeleniumDriver.getDriver().findElement(By.cssSelector("#imdbHeader-navDrawerOpen--desktop")).click();
 
     }
 
