@@ -12,7 +12,7 @@ public class SeleniumDriver {
     private static SeleniumDriver seleniumDriver;
 
     //initialize webdriver
-    private static WebDriver driver;
+    public static WebDriver driver;
 
     //initialize timeouts
     public static WebDriverWait waitDriver;
